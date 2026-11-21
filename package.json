@@ -1,0 +1,15 @@
+{
+  "name": "robot2027-companion-v1-4-pro",
+  "version": "1.4.4",
+  "description": "Robot 2027 V1.4 Pro - Smart Bilingual AI Companion, Kiosk Face, Voice Control & ESP32 BLE Controller",
+  "main": "www/index.html",
+  "scripts": {
+    "sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^6.0.1",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  }
+}
